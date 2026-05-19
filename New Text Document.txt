@@ -1,0 +1,14 @@
+CREATE TABLE customer (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100),
+  age INT,
+  address VARCHAR(255),
+  branch VARCHAR(100),
+  account_type VARCHAR(50),
+  email VARCHAR(100),
+  cnic VARCHAR(20),
+  account_no VARCHAR(20),
+  contact VARCHAR(20),
+  balance DECIMAL(10, 2),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
